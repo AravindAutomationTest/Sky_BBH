@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-09T20:34:21 IST" name="Default suite" finished-at="2024-10-09T20:35:12 IST" duration-ms="51165">
+    <groups>
+    </groups>
+    <test started-at="2024-10-09T20:34:21 IST" name="Default test" finished-at="2024-10-09T20:35:12 IST" duration-ms="51165">
+      <class name="com.sky.testcases.ChangeMOPvsIBAN">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sky.testcases.ChangeMOPvsIBAN@2d710f1a]" started-at="2024-10-09T20:34:21 IST" name="setUp" finished-at="2024-10-09T20:34:26 IST" duration-ms="5008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ChangeMOP(java.lang.String,java.lang.String)[pri:1, instance:com.sky.testcases.ChangeMOPvsIBAN@2d710f1a]" started-at="2024-10-09T20:34:28 IST" name="ChangeMOP" data-provider="LoginDataProvider" finished-at="2024-10-09T20:34:56 IST" duration-ms="27132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhava.aravind.capgemini@bbhit.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aravind012@!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeMOP -->
+        <test-method signature="Entercontract()[pri:2, instance:com.sky.testcases.ChangeMOPvsIBAN@2d710f1a]" started-at="2024-10-09T20:34:56 IST" name="Entercontract" finished-at="2024-10-09T20:34:58 IST" duration-ms="2647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Entercontract -->
+        <test-method signature="clickchangeMOP()[pri:3, instance:com.sky.testcases.ChangeMOPvsIBAN@2d710f1a]" started-at="2024-10-09T20:34:58 IST" name="clickchangeMOP" finished-at="2024-10-09T20:35:12 IST" duration-ms="13846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickchangeMOP -->
+      </class> <!-- com.sky.testcases.ChangeMOPvsIBAN -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
